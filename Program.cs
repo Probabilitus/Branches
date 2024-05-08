@@ -4,14 +4,15 @@
     {
         static void Main(string[] args)
         {
-            List<string> fruits = new List<string>()
+            List<string> fruitsLegumes = new List<string>()
             {
                 "pommes",
                 "baanane",
                 "fraises",
+                "pomme de terre"
 
             };
-            foreach (string fruit in fruits)
+            foreach (string fruit in fruitsLegumes)
             {
                 Console.WriteLine(fruit);
             }
